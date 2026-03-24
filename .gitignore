@@ -1,2 +1,6 @@
 .cursor
+<<<<<<< HEAD
 node_modules
+=======
+node_modules
+>>>>>>> 3a0f726 (chore: initial project setup)
