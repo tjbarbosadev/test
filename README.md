@@ -1,5 +1,17 @@
 # test
 
+## Features adicionadas ate agora
+
+- Projeto Node.js com TypeScript para estudo de testes automatizados
+- Configuracao do Jest com `ts-jest` e ambiente de teste `node`
+- Script de execucao de testes com `npm test`
+- Script de execucao em watch mode com `npm run test:dev`
+- Primeiro exemplo de teste unitario para funcao de soma
+- Estruturacao de suite com `describe`, `test` e `it`
+- Uso de hooks de ciclo de vida com `beforeAll` e `afterAll`
+- Primeiro teste E2E com `supertest` para rota `GET /products`
+- Dependencias e tipos instalados para testes com TypeScript (`jest`, `ts-jest`, `@types/jest`, `supertest`, `@types/supertest`)
+
 ## Dicas de Estudo - Testes Automatizados
 
 ### O que e
