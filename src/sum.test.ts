@@ -1,3 +1,6 @@
+import { sum } from './server';
+
 test('Example sum test', () => {
-  expect(1 + 1).toBe(2);
+  const result = sum(2, 3);
+  expect(result).toBe(5);
 });
