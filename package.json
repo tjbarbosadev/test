@@ -1,0 +1,25 @@
+{
+  "name": "tests",
+  "version": "1.0.0",
+  "description": "Este modulo tem 18 aulas (59:08) sobre testes automatizados em Node.js com TypeScript e Jest. O foco vai de configuracao inicial ate testes E2E.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsx watch src/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tjbarbosadev/test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/tjbarbosadev/test/issues"
+  },
+  "homepage": "https://github.com/tjbarbosadev/test#readme",
+  "dependencies": {
+    "tsx": "^4.21.0"
+  }
+}
