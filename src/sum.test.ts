@@ -1,4 +1,4 @@
-import { sum } from './server';
+import { sum } from './sum';
 
 describe('Sum', () => {
   let sumResult: number;
@@ -9,7 +9,6 @@ describe('Sum', () => {
 
   afterAll(() => {
     sumResult = 0;
-    console.log(sumResult);
   });
 
   test('sum of 2 and 3 must be 5', () => {
