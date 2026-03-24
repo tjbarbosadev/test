@@ -1,9 +1,20 @@
 import { sum } from './server';
 
 describe('Sum', () => {
+  let sumResult: number;
+
+  beforeAll(() => {
+    sumResult = 5;
+  });
+
+  afterAll(() => {
+    sumResult = 0;
+    console.log(sumResult);
+  });
+
   test('sum of 2 and 3 must be 5', () => {
     const result = sum(2, 3);
-    expect(result).toBe(5);
+    expect(result).toBe(sumResult);
   });
 
   it('should return 4 when adding 2 and 2', () => {
